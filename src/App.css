@@ -1,0 +1,39 @@
+/* 
+****************************************************************
+                      Project Images
+**************************************************************** */
+.project-img-btn:hover {
+  border-color: black;
+}
+
+/* 
+****************************************************************
+              Modals Enlarge Project Images
+**************************************************************** */
+
+.modal-dialog {
+  max-width: 800px !important;
+}
+/* 
+****************************************************************
+              Contact disabled buttons
+**************************************************************** */
+.btn-link.disabled,
+.btn-link:disabled {
+  color: white !important;
+}
+
+/* 
+****************************************************************
+              Contact Social Links
+**************************************************************** */
+.contact-links {
+  color: white;
+}
+.contact-links:hover {
+  opacity: 0.8 !important;
+  color: white !important;
+}
+body {
+  overflow-x: hidden;
+}
