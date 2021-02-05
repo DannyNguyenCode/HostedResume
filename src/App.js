@@ -13,9 +13,7 @@ import ApiSample from './assets/images/code_1.jpg';
 import SenecaBanner from './assets/images/SenecaBanner.png';
 import TimHortonBanner from './assets/images/TimHortonsBanner.png';
 
-{
-  /* npm run deploy */
-}
+/* npm run deploy */
 
 let headings = ['Skills', 'Projects', 'Education', 'Employment', 'Contact'];
 function App() {

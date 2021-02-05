@@ -171,6 +171,75 @@ export const Projects = ({
         {/* card text-center mb-4 */}
       </article>
       {/* col col-12 col-lg-6 */}
+      <article className='col col-12 col-lg-6'>
+        <div className='card text-center mb-4'>
+          <div className='card-header'>Personal Project: E-Commerce</div>
+          <ul className='list-group list-group-flush text-left mt-2'>
+            <li className='list-group-item'>
+              Layout using Cascading Stylesheets' Flex Box and Grid System
+            </li>
+            <li className='list-group-item'>
+              Event listener and Event Handling using JavaScript
+            </li>
+
+            <li className='list-group-item'>
+              Hypertext Markup Language to display content onto screen.
+              Organized using multiple element tags
+            </li>
+            <li className='list-group-item'>
+              Responsive Design using Flex Box, Grid System, and Media Queries
+            </li>
+          </ul>
+          <div className='card-footer'>
+            <a
+              href='https://github.com/DannyNguyenCode/e-commerce'
+              className='card-link'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Link to E-Commerce Source Code Repository
+            </a>
+          </div>
+          {/* card-footer */}
+        </div>
+        {/* card text-center mb-4 */}
+      </article>
+      {/* col col-12 col-lg-6 */}
+      <article className='col col-12 col-lg-6'>
+        <div className='card text-center mb-4'>
+          <div className='card-header'>
+            Personal Project: Python3 Trading Algorithm
+          </div>
+          <ul className='list-group list-group-flush text-left mt-2'>
+            <li className='list-group-item'>
+              Used Linux (Ubuntu 20.10) operating system and Komodo IDE as the
+              environment to code on
+            </li>
+            <li className='list-group-item'>
+              Libraries and modules include Python3, Panda, Matplotlib,
+              yfinanace, numpy, datetime, xml, and csv
+            </li>
+
+            <li className='list-group-item'>
+              Created modules for different patterns and indicators to inform
+              decision on stocks
+            </li>
+          </ul>
+          <div className='card-footer'>
+            <a
+              href='https://github.com/DannyNguyenCode/tradingAlgorithm'
+              className='card-link'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Link to Trading Algorithm Source Code Repository
+            </a>
+          </div>
+          {/* card-footer */}
+        </div>
+        {/* card text-center mb-4 */}
+      </article>
+      {/* col col-12 col-lg-6 */}
       {/* 
       ****************************************************************
                       Modals - to enlarge picture on click
