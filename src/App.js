@@ -10,8 +10,7 @@ import DesktopView from './assets/images/DESKTOP_MOCK.jpg';
 import TabletView from './assets/images/TABLET_MOCK.jpg';
 import LaptopView from './assets/images/LATOP_MOCK.jpg';
 import ApiSample from './assets/images/code_1.jpg';
-import SenecaBanner from './assets/images/SenecaBanner.png';
-import TimHortonBanner from './assets/images/TimHortonsBanner.png';
+import {Employment} from './Employment'
 
 /* npm run deploy */
 
@@ -33,11 +32,14 @@ function App() {
         id='top'
       >
         <div className='container-fluid pl-5'>
-          <h1 className='display-4 mb-4'>Danny Nguyen</h1>
+          <h1 className='display-4 mb-4'>Gia Bao (Danny) Nguyen</h1>
           <p className='lead mt-4'>
-            Seneca College graduate from the Computer Programming course
-            <br />A passion in developing websites to help connect everyone and
-            their communities via the internet
+             
+            <br/>
+            Seneca College graduate from the Computer Programming course.
+            <br />
+            A passion in developing websites to help connect everyone and
+            their communities via the internet.
           </p>
         </div>
       </section>
@@ -138,84 +140,7 @@ function App() {
                           Employment Component
         **************************************************************** */}
           <div className='container'>
-            <article className='row mt-4'>
-              <div className='card'>
-                <img
-                  className='card-img-top'
-                  src={SenecaBanner}
-                  alt='Seneca College Banner'
-                />
-                <div className='card-body'>
-                  <h2 className='card-title'>
-                    Information Technology Service Desk - Technologist
-                  </h2>
-                  <h5 className='card-subtitle'>Team Lead</h5>
-                  <p className='card-text'>
-                    As a technologist, we are the first point of contact for
-                    clients who are looking for inqueries for either general,
-                    student, hardware, software, or financial. We were also
-                    responsible for implimenting projects/visions that our
-                    supervisor assigned to us. These projects/visions had
-                    deadlines which provided us with an opportunity to showcase
-                    our project management skills because we would have to
-                    finish before the deadline while keeping up with the
-                    day-to-day tasks at the service desk. Also, a report was
-                    required by our supervisor on the progress and potential
-                    features to be added from requirements gathering on a weekly
-                    basis. We worked in an environment that required us to
-                    communicate between multiple departments in our campus and
-                    across all four major campuses of Seneca College. To work at
-                    this job, we had to have analytical skills. Research and
-                    problem-solving helps with keeping clients satisfied when
-                    they come to us with a problem, whether it is for
-                    information, hardware, or software.
-                  </p>
-                </div>
-                {/* card-body */}
-              </div>
-              {/* card */}
-            </article>
-            {/* row mt-4 */}
-            <article className='row mt-4'>
-              <div className='card'>
-                <img
-                  className='card-img-top'
-                  src={TimHortonBanner}
-                  alt='Tim Hortons Banner'
-                />
-                <div className='card-body'>
-                  <h2 className='card-title'>
-                    Customer Service Representative
-                  </h2>
-                  <h5 className='card-subtitle'>Team Member</h5>
-                  <p className='card-text'>
-                    As a customer service representative, we were in constant
-                    contact with the customers, whether it was by phone, mobile,
-                    drive-thru, or face-to-face. We worked as a unit, rotation
-                    between stations in preparing the incredients, producing the
-                    product, and serving the product to the customer. In
-                    preparing the ingredients, we would handle the delivery and
-                    stock up the stations. When producing the product we would
-                    bake the pasteries, make the sandwiches, and make the
-                    beverages to be handed off to the person in charge of
-                    delivering the order to the customer. When delivering the
-                    order to the customer, we would receive the payment, whether
-                    it is by cash, debit, or credit, and hand over the order to
-                    the customer in a satisfactory manner, which means if the
-                    order had two or more drinks, a tray would be used. We also
-                    had to implement new methods of how customers ordered. In my
-                    time working, we had just implemented mobile ordering
-                    through the Tim Horton's app and kiosks within the
-                    restaurant. Incorporating these new methods required
-                    multi-tasking and an ability to quickly adapt because they
-                    are vital to retaining/attracting customers.
-                  </p>
-                </div>
-                {/* card-body */}
-              </div>
-              {/* card */}
-            </article>
-            {/* row mt-4 */}
+            <Employment/>
           </div>
           {/* container */}
         </section>
@@ -251,7 +176,7 @@ function App() {
                     aria-disabled='true'
                     disabled
                   >
-                    Danny Nguyen
+                    Gia Bao (Danny) Nguyen
                   </button>
                   <button
                     className='nav-link btn btn-link contact-btn'

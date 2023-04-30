@@ -37,6 +37,57 @@ export const Skills = () => (
       {/* progress mt-2 */}
     </section>
     <section className='col-12 col-sm-6 col-md-6 col-lg-4 mb-4'>
+      Redux
+      <div className='progress mt-2' style={{ height: 20 + 'px' }}>
+        <div
+          className='progress-bar bg-info'
+          style={{ width: 70 + '%', height: 20 + 'px' }}
+          role='progressbar'
+          aria-valuenow='70'
+          aria-valuemin='0'
+          aria-valuemax='100'
+        >
+          70%
+        </div>{' '}
+        {/* progress-bar */}
+      </div>
+      {/* progress mt-2 */}
+    </section>
+    <section className='col-12 col-sm-6 col-md-6 col-lg-4 mb-4'>
+      Axios
+      <div className='progress mt-2' style={{ height: 20 + 'px' }}>
+        <div
+          className='progress-bar bg-info'
+          style={{ width: 85 + '%', height: 20 + 'px' }}
+          role='progressbar'
+          aria-valuenow='85'
+          aria-valuemin='0'
+          aria-valuemax='100'
+        >
+          85%
+        </div>{' '}
+        {/* progress-bar */}
+      </div>
+      {/* progress mt-2 */}
+    </section>
+    <section className='col-12 col-sm-6 col-md-6 col-lg-4 mb-4'>
+      Material UI
+      <div className='progress mt-2' style={{ height: 20 + 'px' }}>
+        <div
+          className='progress-bar bg-info'
+          style={{ width: 85 + '%', height: 20 + 'px' }}
+          role='progressbar'
+          aria-valuenow='85'
+          aria-valuemin='0'
+          aria-valuemax='100'
+        >
+          85%
+        </div>{' '}
+        {/* progress-bar */}
+      </div>
+      {/* progress mt-2 */}
+    </section>
+    <section className='col-12 col-sm-6 col-md-6 col-lg-4 mb-4'>
       Bootstrap 4
       <div className='progress mt-2' style={{ height: 20 + 'px' }}>
         <div
@@ -206,7 +257,25 @@ export const Skills = () => (
       </div>
       {/* progress mt-2 */}
     </section>
-    <section className='col-12 col-sm-6 col-md-6 col-lg-4 mb-4 offset-lg-2'>
+    <section className='col-12 col-sm-6 col-md-6 col-lg-4 mb-4'>
+      C#
+      <div className='progress mt-2' style={{ height: 20 + 'px' }}>
+        <div
+          className='progress-bar bg-info'
+          style={{ width: 60 + '%', height: 20 + 'px' }}
+          role='progressbar'
+          aria-valuenow='60'
+          aria-valuemin='0'
+          aria-valuemax='100'
+        >
+          60%
+        </div>{' '}
+        {/* progress-bar */}
+      </div>
+      {/* progress mt-2 */}
+    </section>
+    {/* <section className='col-12 col-sm-6 col-md-6 col-lg-4 mb-4 offset-lg-2'> */}
+    <section className='col-12 col-sm-6 col-md-6 col-lg-4 mb-4'>
       Java
       <div className='progress mt-2' style={{ height: 20 + 'px' }}>
         <div
