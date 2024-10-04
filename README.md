@@ -1,3 +1,3 @@
 # HostedResume
 
-Link to Resume https://dannynguyencode.github.io/
+Link to Resume https://dannynguyencode.github.io/HostedResume/
