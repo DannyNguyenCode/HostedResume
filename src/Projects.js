@@ -173,31 +173,30 @@ export const Projects = ({
       {/* col col-12 col-lg-6 */}
       <article className='col col-12 col-lg-6'>
         <div className='card text-center mb-4'>
-          <div className='card-header'>Personal Project: E-Commerce</div>
+          <div className='card-header'>Personal Project: Tournament Management Website</div>
           <ul className='list-group list-group-flush text-left mt-2'>
             <li className='list-group-item'>
-              Layout using Cascading Stylesheets' Flex Box and Grid System
+              NextJS as the framework to handle layout, routing/dyanmic routing, server/client side rendering and  data fetching.
             </li>
             <li className='list-group-item'>
-              Event listener and Event Handling using JavaScript
+              AuthJS as the library to provide authentication and authorzation.
             </li>
 
             <li className='list-group-item'>
-              Hypertext Markup Language to display content onto screen.
-              Organized using multiple element tags
+              MongoDB as the database to store data. Combined with Mongoose and NodeJS which allows the creation and use of CRUD operations between the application and database.
             </li>
             <li className='list-group-item'>
-              Responsive Design using Flex Box, Grid System, and Media Queries
+              Responsive Design using Material UI.
             </li>
           </ul>
           <div className='card-footer'>
             <a
-              href='https://github.com/DannyNguyenCode/e-commerce'
+              href='https://github.com/DannyNguyenCode/esports-tournament'
               className='card-link'
               target='_blank'
               rel='noopener noreferrer'
             >
-              Link to E-Commerce Source Code Repository
+              Link to Tournament Management Website Source Code Repository
             </a>
           </div>
           {/* card-footer */}
